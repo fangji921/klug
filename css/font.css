@@ -1,0 +1,11 @@
+@font-face {
+    font-family : 'Infitity Sans';
+    src: url("../font/InfinitySansR-Regular.ttf") format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family : 'Infitity Sans';
+    src: url("../font/InfinitySans-Bold.ttf") format('truetype');
+    font-weight: 500;
+}
