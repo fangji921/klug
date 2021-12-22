@@ -123,7 +123,6 @@ $(document).ready(function () {
                 scrollTrigger: {
                     trigger: ".sec_3 .con-wrapper",
                     scrub: true,
-                    markers:true,
                     start: "10% top",
                     end: "bottom top",
                 },
@@ -195,7 +194,6 @@ $(document).ready(function () {
                 gsap.to(txt, {
                     scrollTrigger: {
                         trigger: txt,
-                        // markers: true,
                         onEnter: () =>
                             imgFadeChanging(txt.dataset.idx),
                         onEnterBack: () =>
