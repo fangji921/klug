@@ -81,7 +81,7 @@ section .title {
 
 header {
     width: 100%;
-    height: 80px;
+    height: 60px;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -90,12 +90,11 @@ header {
 
 header .header-inner {
     width: 100%;
-    height: 80px;
+    height: 60px;
     position: relative;
 }
 
 header .logo {
-    width: 90px;
     height: 40px;
     position: absolute;
     top: 50%;
@@ -104,7 +103,7 @@ header .logo {
 }
 
 header .logo img {
-    width: 100%;
+    height: 100%;
 }
 
 header .logo .black {
@@ -112,25 +111,28 @@ header .logo .black {
 }
 
 header .menu-btn {
+    width: 40px;
+    height: 40px;
     position: absolute;
     top: 50%;
-    right: 1%;
+    right: 10px;
     transform: translateY(-50%);
-    padding: 10px;
+    padding: 5px;
+    box-sizing: border-box;
     z-index: 300;
 }
 
 header .menu-btn span {
-    width: 40px;
-    height: 5px;
+    width: 30px;
+    height: 3px;
     display: block;
-    margin-bottom: 9px;
+    margin-bottom: 10px;
     background-color: #fff;
     transition: all 0.45s;
 }
 
 header .menu-btn span:nth-child(2) {
-    width: 27px;
+    width: 24px;
 }
 
 header .menu-btn span:nth-child(3) {
@@ -138,16 +140,16 @@ header .menu-btn span:nth-child(3) {
 }
 
 header .menu-btn.nav_on span:nth-child(1) {
-    transform: translateY(14px) rotate(135deg);
+    transform: translateY(13px) rotate(135deg);
 }
 
 header .menu-btn.nav_on span:nth-child(2) {
-    width: 40px;
+    width: 0px;
     opacity: 0;
 }
 
 header .menu-btn.nav_on span:nth-child(3) {
-    transform: translateY(-14px) rotate(-135deg);
+    transform: translateY(-13px) rotate(-135deg);
 }
 
 header nav {
@@ -170,7 +172,6 @@ header .menu-btn.nav_on span {
 }
 
 header .nav-logo {
-    width: 150px;
     height: 70px;
     position: absolute;
     top: 10%;
@@ -178,7 +179,7 @@ header .nav-logo {
 }
 
 header .nav-logo img {
-    width: 100%;
+    height: 100%;
 }
 
 header .menu-wrapper {
@@ -216,7 +217,7 @@ header.scroll_on {
 }
 
 header.scroll_active {
-    height: 80px;
+    height: 60px;
     transition: all 0.3s;
 }
 
@@ -734,7 +735,6 @@ header.scroll_on .menu-btn span {
 
 .sec_5 {
     width: 100%;
-    height: 320px;
     background-color: #b3e5df;
 }
 

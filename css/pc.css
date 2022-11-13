@@ -125,6 +125,7 @@
 
     header .util-wrapper li {
         font-size: 18px;
+        line-height: 24px;
         display: inline-block;
         padding: 0 15px;
         box-sizing: border-box;
@@ -299,7 +300,7 @@
 
     .sec_3 .text-box p {
         font-size: 18px;
-        line-height: 25px;
+        line-height: 24px;
     }
 
     .sec_3 .con1 .text-box {
@@ -409,11 +410,23 @@
         padding: 50% 0;
     }
 
-    /*section_4 end*/
-
-    .sec_5 {
-        height: 350px;
+    .sec_4 .text-box .bold{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
     }
+
+    .sec_4 .text-box .bold span{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .sec_4 .text-box .light{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    /*section_4 end*/
 
     .sec_5 .sec-inner {
         width: 100%;
@@ -475,10 +488,12 @@
         height: 150px;
         margin: 80px auto;
         font-size: 18px;
+        line-height: 24px;
     }
 
     .sec_6 .text-box h5 {
-        font-size: 21px;
+        font-size: 22px;
+        line-height: 26px;
         color: #1c9990;
         margin-top: 10px;
     }

@@ -219,7 +219,7 @@ $(document).ready(function () {
         },
         "all": function () { // all 
             ScrollTrigger.create({
-                trigger: ".container",
+                trigger: ".sec_4 .container",
                 start: "top top",
                 end: "bottom bottom",
                 pin: ".sec_4 .img-wrapper",
